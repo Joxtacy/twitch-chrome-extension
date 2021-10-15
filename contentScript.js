@@ -11,7 +11,7 @@ setInterval(() => {
         console.info("[TWITCH CLICKER]: It got clicked!", time);
         el.click();
     } else {
-        console.warn("[TWITCH CLICKER]: Tried to click the button, but couldn't find one");
+        console.info("[TWITCH CLICKER]: Tried to click the button, but couldn't find one");
     }
 }, 10000);
 
